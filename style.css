@@ -1,0 +1,164 @@
+* {
+    background-color: black;
+    font-family: 'Fugaz One', sans-serif;
+    font-size: 30px;
+
+}
+
+.logoricco {
+    max-width: 400px;
+    margin: auto;
+    display: block;
+    align-items: center;
+
+
+}
+
+.caixa-whats {
+    position: absolute;
+    margin-left: 40%;
+
+}
+
+
+.whatsapp {
+    max-width: 100px;
+    position: absolute;
+
+}
+
+.link {
+    cursor: pointer;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.menu-drop {
+    cursor: pointer;
+    background-color: gray;
+
+
+}
+
+.menu-drop:hover .drop-content {
+    display: grid;
+    z-index: 1;
+
+
+}
+
+.drop-content {
+    display: none;
+    position: absolute;
+
+}
+
+.seletor {
+    background-color: gray;
+    text-decoration: none;
+
+
+
+}
+
+a:hover {
+    opacity: 0.5;
+}
+
+a {
+    color: #ffff;
+}
+
+section1 {
+    background-color: gray;
+    color: white;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.marcas {
+    justify-content: baseline;
+    justify-content: center;
+    justify-content: space-around;
+    display: flex;
+    word-wrap: break-word;
+    flex-wrap: wrap;
+}
+
+.marcas1 {
+    margin-top: 30px;
+    justify-content: baseline;
+    justify-content: center;
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+span:hover {
+    scale: 1.5;
+    transition: .5s;
+
+}
+
+.article {
+    display: inline-block;
+    position: absolute;
+    margin-top: 15px;
+    text-align: center;
+    margin-left: 30%;
+}
+
+h2 {
+    display: block;
+    text-align: center;
+    margin-top: 0%;
+    color: #ffff;
+
+}
+
+nav {
+
+    display: block;
+
+    margin-top: 21%;
+
+
+
+}
+
+@media screen and (max-width: 900px) {
+
+    * {
+        font-family: 'Fugaz One', sans-serif;
+        font-size: 20px;
+    }
+   
+    .logoricco {
+        width: 70%;
+    }
+    .marcas {
+        display:flex ;
+        text-align: justify;
+    }
+    .marcas1 {
+        margin-top: 0px;
+        display:flex;
+        text-align: justify;      
+    }
+    span:hover {
+        scale: none;
+        transition: none;   
+    }
+    iframe {
+        width: 80%;
+        height: 100%;
+    }
+    nav {
+        margin-top: 50%;
+    }
+    .article {
+        margin-left: 0%;
+    }
+  
+}
